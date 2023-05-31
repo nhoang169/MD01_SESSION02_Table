@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Lưu ý : Khi ô input không có type thì mặc định type của ô input  đấy là text-->
+    <!-- Phím tắt Ctrl + Shift + L   -->
+    <h3>Create Account</h3>
+    <label for="">First name *:</label> 
+    <input type="text"> <br><br>
+
+    <label for="">Last name *:</label>
+    <input type="text"><br><br>
+
+    <label for="">Password * :</label>
+    <input type="Password"><br><br>
+
+    <label for="">Gender * :</label>
+    <input name="gender" type="radio" /> Nam
+    <input name="gender" type="radio" /> Nữ
+    <input name="gender" type="radio" /> Khác <br><br>
+
+    <label for="">Sở thích * :</label>
+    <input type="checkbox" name="" id=""><br><br>
+
+    <label for="">Thành phố <label>
+    <select name="" id="">
+        <option value=""> -- Nhập tên thành phố-- </option>
+        <option value=""> Thành phố Hồ Chí Minh</option>
+        <option value=""> Thành phố Hà Nội</option>
+        <option value=""> Thành phố Đà Nẵng</option>   
+    </select><br><br>
+    <!--Combobox-->
+
+    <label for=""> Tiến độ </label>
+    <input type="range"><br><br>
+
+    <label for="">Ngày sinh </label>
+    <input type="date"><br> <br>
+
+    <label for=""> Ảnh đại diện </label>
+    <input type="file"><br><br>
+
+    <label for=""> Địa chỉ </label>
+    <textarea name="" id="" cols="60" rows="10"></textarea>
+
+    <input type="button"/ value="Đăng nhập"><br><br>
+    <label for="">Tuổi</label>
+    <input type="number"><br><br>
+
+    <!-- sử dụng cú pháp để tọa ra 5 thẻ TH nhánh cú pháp : th*5 sau đó Enter -->
+    <table border="1"> 
+        <caption> LÀM VIỆC VỚI BẢNG </caption>
+        <thead>
+            <th> STT </th>
+            <th> Họ và tên </th>
+            <th> Giới tính </th>
+            <th> Ngày sinh </th>
+            <th> Tuổi </th>
+        </thead>
+        <!--Phần dữ liệu-->
+        <tbody>
+            <!--tr: table row-->
+            <tr>
+                <td>1</td>
+                <td> Rikkei Academy</td>
+                <td> Nam </td>
+                <td> 20/08/2022 </td>
+                <td> 22 </td>
+            </tr>
+            
+            <tr>
+                <td>1</td>
+                <td> Rikkei Academy</td>
+                <td> Nam </td>
+                <td> 20/08/2022 </td>
+                <td> 22 </td>
+            </tr>            
+            
+            <tr>
+                <td>1</td>
+                <td> Rikkei Academy</td>
+                <td> Nam </td>
+                <td> 20/08/2022 </td>
+                <td> 22 </td>
+            </tr>            
+
+            
+        </tbody>
+    </table>
+</body>
+</html>
